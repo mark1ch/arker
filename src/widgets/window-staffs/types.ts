@@ -1,6 +1,6 @@
-import { StaffItem } from "features/staff-item/types";
+import { StaffItemType } from "features/staff-item/types";
 
 export interface WindowStaffsProps {
-    staffs: StaffItem[];
-    onHandleStaffs: (staffs: StaffItem) => void;
+    staffs: StaffItemType[];
+    onHandleStaffs: (staffs: StaffItemType) => void;
 }
