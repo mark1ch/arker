@@ -1,0 +1,9 @@
+.uibutton {
+  padding: 7px 12px;
+  border-radius: 7px;
+  box-shadow: 0 0 5px rgb(140, 140, 140);
+
+  &:hover {
+    background-color: rgb(241, 241, 241);
+  }
+}

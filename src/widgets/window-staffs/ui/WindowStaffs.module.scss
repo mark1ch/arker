@@ -1,0 +1,29 @@
+.window__staffs {
+  padding: 20px;
+  box-shadow: 0 0 5px rgb(140, 140, 140) inset;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+
+  table {
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+  
+  tr {
+    & > td:not(:first-child) {
+      text-align: center;
+    }
+  }
+
+}
